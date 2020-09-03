@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the words</title>
+        <link rel="stylesheet" href="scramble.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tangerine|Inconsolata|Droid+Sans|Ubuntu:wght@500|Permanent+Marker&display=swap">
+    </head>
+    <body>
+        <header>
+            <h1>Guess the word correctly.</h1>
+        </header>
+        <section>
+            <div class="gameArea">
+                <div id="scoreTotal">Score : 
+                    <h3 class="score">0</h3>
+                </div>
+                <h3 class="msg"></h3>
+                <h3 class="word"></h3>
+                <input type="text" class="hidden">
+                <button class="btn" id="start">start</button>
+                <button class="btn hidden" id="reveal">Show Answer</button>
+            </div>
+        </section>
+        <script src="scramble.js"></script>
+    </body>
+</html>

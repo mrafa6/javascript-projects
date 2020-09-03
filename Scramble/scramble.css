@@ -1,0 +1,117 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    line-height: 15vh;
+    background-color: #4d0059;
+}
+
+h1{
+    text-align: center;
+    color:yellow;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 5px;
+    text-shadow: 0 1px 0 #e8f1e8, 0 2px 0 #e84848, 0 3px 0 #1c3992, 0 4px 0 #00BCD4, 0 30px 5px rgba(0,0,0,0.1);
+}
+
+section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.gameArea{
+    width: 50%;
+    height: auto;
+    background-color:#4d0059;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 2px 4px 0px whitesmoke;
+    border-radius: 6%;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 0.1rem;
+}
+
+input{
+    width: 50%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: yellow;
+    color: black;
+    margin: 1.2rem 0;
+    font-size: 1.4rem;
+    font-family: cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+button{
+    font-family: 'Ubuntu';
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    border: orangered;
+    margin-top: 10px;
+    color: white;
+}
+
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: #4756ff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 2px 2px 2px 0px #1b2609e3
+}
+
+button.btn:hover, button.btn:active, button.btn:focus{
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.hidden{
+    display: none;
+}
+h3.msg{
+    color: #26f526;
+    padding: 15px;
+    font-size: 1.8rem;
+}
+
+div#scoreTotal{
+    color: tomato;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+h3.score {
+    float: right;
+    padding: 0px 10px;
+}
+   
